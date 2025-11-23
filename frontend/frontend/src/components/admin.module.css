@@ -1,0 +1,99 @@
+.titulo{
+    text-align: center;
+}
+
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.create__boton{
+    text-decoration: none;
+    width: 150px;
+    background-color: #F58B30;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+.sub{
+    margin-left: 50px;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.curso{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 1500px;
+    border-radius: 20px;
+    padding: 10px;
+
+    p{
+        width: 90%;
+    }
+
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.edit{
+    color: black;
+    text-decoration: none;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+.asignados, .peticiones{
+        display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.asignado{
+       display: flex;
+    background-color: #D9D9D9;
+    width: 1500px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.peticion{
+         display: flex;
+    background-color: #D9D9D9;
+    width: 1500px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;  
+
+        button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}

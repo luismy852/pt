@@ -1,0 +1,53 @@
+.titulo{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.curso{
+    width: 300px;
+    height: 330px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    h2{
+        text-align: center;
+    }
+
+    p{
+        min-height: 50%;
+    }
+}
+
+.contenedor__curso{
+    display: flex;
+    gap: 20px   ;
+    margin: 50px;
+}
+
+.contenedor__boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    text-decoration: none;
+    width: 150px;
+    background-color: #F58B30;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
